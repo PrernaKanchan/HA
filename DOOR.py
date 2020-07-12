@@ -13,7 +13,7 @@ from  threading import Thread
 
 cred =  credentials . Certificate ( 'insert json')
 firebase_admin . initialize_app ( cred ,  {
-    'databaseURL' : 'db url' 
+    'databaseURL' : 'insert db url' 
 })
 
 RELAY_PIN = 21
