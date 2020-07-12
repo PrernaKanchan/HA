@@ -11,7 +11,7 @@ import gpiozero
 from  threading import Thread 
 
 
-cred =  credentials . Certificate ( 'insert json')
+cred =  credentials . Certificate ( 'insert json file')
 firebase_admin . initialize_app ( cred ,  {
     'databaseURL' : 'insert db url' 
 })
