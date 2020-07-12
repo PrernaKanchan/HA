@@ -11,9 +11,9 @@ import gpiozero
 from  threading import Thread 
 
 
-cred =  credentials . Certificate ( '/home/pi/smartcontrol-35c8b-firebase-adminsdk-yqtev-bc917cb4b5.json')
+cred =  credentials . Certificate ( 'insert json')
 firebase_admin . initialize_app ( cred ,  {
-    'databaseURL' : 'https://smartcontrol-35c8b.firebaseio.com/' 
+    'databaseURL' : 'insert db url' 
 })
 
 RELAY_PIN = 20
